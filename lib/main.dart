@@ -6,7 +6,7 @@ void main() {
 }
 
 class OfflineNotesApp extends StatelessWidget {
-  const OfflineNotesApp({Key? key}) : super(key: key);
+  const OfflineNotesApp({super.key});
 
   @override
   Widget build(BuildContext context) {
